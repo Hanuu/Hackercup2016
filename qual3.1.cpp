@@ -24,7 +24,7 @@ int main(){
     int t;
     cin >> t;
     for(int i=1;i<=t;i++){
-        int result=0;
+        long long result=0;
         int n,p;
         cin >> n;
         cin >> p;
@@ -34,8 +34,8 @@ int main(){
         for(int a=1;a<=n;a++){
             result+=add(B,p,n,a);
         }
-        printf("Case #%d: %d\n",i,result);
-        fprintf(fp,"Case #%d: %d\n",i,result);
+        printf("Case #%d: %llu\n",i,result);
+        fprintf(fp,"Case #%d: %llu\n",i,result);
     }
     
     
